@@ -10,7 +10,7 @@ possivel identificar graficamente a faculdade, o grau de ensino e o curso em que
 
 
 2. APRESENTAÇÃO DO CONTEÚDO <br />
-Na pasta "GRELHA" estão todos os ficheiros de Processing, bem como os SVG usados. Também contém imagens dos estudos de esquemas feitos, bem como do estudo de cores e resultados finais de cartões (em ficheiros PDF). 
+Na pasta "Grelha" estão todos os ficheiros de Processing, bem como os SVG usados. Também contém imagens dos estudos de esquemas feitos, bem como do estudo de cores e resultados finais de cartões (em ficheiros PDF). 
 <br />
 O ficheiro master de Processing é o Grelha.pde, que contém 6 objetos: <br />
 - Cell: objeto que cria as células onde estão colocados os padrões; <br />
