@@ -49,7 +49,16 @@ int loop;
 void setup() {
   //size(904, 585);
   //size(243, 153);
+  
+  
+  
+  
+  
+  
+  
+  
   size(243, 153, PDF, "DoutFLUCFrente.pdf");
+  
   noLoop();
 
   bg = createGraphics(width, height);
@@ -70,6 +79,10 @@ void setup() {
   //DEFINIÇÃO DE POSIÇÕES INICIAIS
   x = 0;
   y = 0;
+
+
+
+
 
   /*
    Faculdade de Letras
@@ -93,6 +106,31 @@ void setup() {
   nAluno = "2019147932";
   nome = "Nome de Estudante";
   nCC = "12345678";
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   nAlunoI = "";
   nAlunoP = "";
   algAluno = "";
@@ -436,11 +474,53 @@ void setup() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void draw() {
   cartaoFrente();
   //cartaoTras();
   exit();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int invertNum(String n) {
   int output = 0;
