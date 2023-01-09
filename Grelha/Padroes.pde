@@ -73,17 +73,17 @@ class Padrao {
       }
     } else {
       for (int linha = 0; linha < nPerLine; linha++) {
-        float y = yP + linha * hPG + hPG/2;
+        float y = yP + linha * wPG + wPG/2;
         for (int coluna = 0; coluna < nPerLine/2; coluna++) {
-          float x = xP + coluna * hPG + hPG/2;
+          float x = xP + coluna * wPG + wPG/2;
           pushMatrix();
           float angulo = radians(90) * int(random(4));
           translate(x, y);
           rotate(angulo);
           if (random(1) < 0.5) {
-            m1 (-hPG/2, -hPG/2, hPG, hPG);
+            m1 (-wPG/2, -wPG/2, wPG, wPG);
           } else {
-            m2 (-hPG/2, -hPG/2, hPG, hPG);
+            m2 (-wPG/2, -wPG/2, wPG, wPG);
           }
           popMatrix();
         }
